@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <div className="h-screen text-white">
+      <div className="min-h-screen text-white">
         {view === "home" && <Home />}
         {view === "categories" && <Categories onSelectCat={onSelectCat} />}
         {view === "config" && (
